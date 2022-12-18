@@ -19,10 +19,10 @@ public class MouseOver {
         // act.moveToElement(service).build().perform();
         //build().perform() this command is used for complete the action of the element.
         // act.moveToElement(emp).click().build().perform(); //here we have used multiple line commands
-        
+        Thread.sleep(4000);
         //single line commands.....
         act.moveToElement(service).moveToElement(emp).click().build().perform();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         driver.navigate().back();
         Thread.sleep(3000);
         driver.quit();
